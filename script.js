@@ -29,5 +29,5 @@ function lock(){
     var s = new Audio("here.mp3");
     s.play();
     var p = new Audio("magic.mp3");
-    p.play(loop);
+    p.play();
 }
