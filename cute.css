@@ -1,0 +1,105 @@
+@keyframes open{
+    from{width: 150%; transform: rotateY(180deg);}
+    to{width: 70%; transform: rotateY(180);}
+}
+
+@keyframes di {
+    from{width: 550%; transform: rotateY(180deg);}
+    to{width: 97%; transform: rotateY(180);}
+}
+
+@keyframes titlea {
+    from{font: times 100%;}
+    to{font: cursive 100%;}
+}
+
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.back{
+    width: 107%;
+    height: 100%;
+    position: relative;
+    left: -3%;
+    top: -10px;
+    margin-right: -15px;
+}
+
+body{
+    background-color: #0b0501;
+}
+
+.front{
+    position: absolute;
+    top: 0%;
+    width: 97%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    animation: di 4s;
+    animation-play-state: paused;
+    display: none;
+}
+
+.title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 350%;
+    color: #ff1569;
+    animation: titlea 4s;
+}
+
+.iimg{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    right: 15%;
+    animation: open 4s;
+    animation-play-state: running;
+}
+
+.tab{
+    position: absolute;
+    text-align: center;
+    right: 5%;
+    top: 70%;
+}
+
+.bbutton{
+    font: times 30px;
+    background: pink;
+    border-radius: 40%;
+    color: red;
+}
+
+.poemt{
+    text-align: center;
+    font: cursive;
+    color: red;
+}
+
+.poemp{
+    text-align: center;
+    color: white;
+}
+
+.lock{
+    width: 100%;
+    height: 125%;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.locki{
+    width: 100%;
+    height: auto;
+}
